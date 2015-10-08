@@ -697,7 +697,7 @@
 					.titlebox .tagline .flair:before {content: "";}
 
 
-				.titlebox form.toggle.flairtoggle, .leavemoderator, .titlebox .tagline a.author, .sidebox .subtitle {display: none;}
+				.titlebox form.toggle.flairtoggle, .leavemoderator, .titlebox .tagline>a.author, .sidebox .subtitle {display: none;}
 				.titlebox form.toggle.sr_style_toggle {padding-bottom: 0px;display: block;}
 				.titlebox form.toggle.sr_style_toggle label {position: relative;top: -3px;}
 				.res form.toggle.sr_style_toggle {margin: -20px 0 18px 0;}
