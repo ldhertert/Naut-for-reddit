@@ -199,15 +199,12 @@
 					width: 0px;
 					padding-left: 48px;
 					height: 48px;
-					background-image: url(%%spritesheet%%);
-					background-position: -208px -48px;
+					background-image: url(%%balls%%);
+					background-position: 0 0;
 					position: relative;
 					top: 0px;
 					margin: 0;
 				}
-
-					#header-img.default-header:hover, #header-img:hover {background-position: -208px -96px;}
-
 
 			 	#header .pagename {
 			 		font-size: 0;
@@ -225,7 +222,9 @@
 			 			margin: 0 4px;
 			 			vertical-align: top;
 			 			transition: background-color 0.25s ease;
-			 			font-variant: normal;
+			 			width: 460px;
+						background-image: url(%%headertxt%%);
+						text-indent: -9999px;
 			 		}
 
 			 			#header .pagename a:hover {
@@ -936,7 +935,7 @@
 					background-color: #3A3D4D;
 					background-image: url(%%headerimg%%);
 					background-repeat: no-repeat;
-					background-position: 50% 0%;
+					background-position: 50% 100%;
 					content: "";
 					text-indent: -9999px;
 					z-index: -1;
