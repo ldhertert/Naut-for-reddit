@@ -2586,6 +2586,7 @@
 					.flair[class*="-"]::before {
 					    content: "";
 					    vertical-align: middle;
+					    margin-bottom: 0.25em;
 					}
 
 					.flair:empty::before {
@@ -2614,7 +2615,7 @@
 
 					.flair-Donor4::before,.md a[href="#flair-Donor4"] {
 					    -webkit-animation: spin 4s infinite linear;
-					    animation: spin 4s infinite linear
+					    animation: spin 4s infinite linear;
 					}
 
 					@-webkit-keyframes spin {
@@ -2882,6 +2883,10 @@
 
 					.flair-75WinRate::before,.md a[href="#flair-75WinRate"] {
 					    background-position: -16px -117px
+					}
+					.flair-ButtSnake::before,.md a[href="#flair-ButtSnake"] {
+					    background-position: -16px -117px;
+					    animation: spin 4s infinite linear;
 					}
 
 					.flair-65WinRate::before,.md a[href="#flair-65WinRate"] {
