@@ -707,7 +707,7 @@
 						font-size: 12px;
 					}
 					.titlebox .tagline .flair:before {content: "";}
-					.usertext-body>.md>p:first-of-type {
+					.side .usertext-body>.md>p:first-of-type {
 						position: absolute;
 						margin: -41px 0 0 83px;
 						display: inline-block;
